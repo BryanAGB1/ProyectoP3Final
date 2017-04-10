@@ -1,0 +1,1 @@
+Server=tcp:uniantillas.database.windows.net,1433;Initial Catalog=UniversidadAntillas;Persist Security Info=False;User ID=Admin1;Password=Administrador1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
