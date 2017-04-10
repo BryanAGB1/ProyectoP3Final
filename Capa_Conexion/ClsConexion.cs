@@ -10,7 +10,7 @@ using System.Data;
 namespace Capa_Conexion {
     public class clsConexion {
 
-        private SqlConnection oCN = new SqlConnection("Data Source=DESKTOP-EE4SB8V\\SQLSERVER2017;Initial Catalog=ProyectoProgra3;Integrated Security=True");
+        private SqlConnection oCN = new SqlConnection("Server=tcp:uniantillas.database.windows.net,1433;Initial Catalog=UniversidadAntillas;Persist Security Info=False;User ID=Admin1;Password=Administrador1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
 
         public bool abrirConexion() {
             try {
