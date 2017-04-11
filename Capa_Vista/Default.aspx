@@ -13,7 +13,7 @@
     <header>
             <nav>
                 <ul>
-
+                    <li><a href="Inicio.aspx"> <img src="~/Imagenes/Udelasantillas.png" runat="server" class="Imagen"/>  </a></li>
                     <li><a href="Inicio.aspx">Inicio</a></li>
                     
                     <li><a href="Matricula.aspx">Informacion</a></li>

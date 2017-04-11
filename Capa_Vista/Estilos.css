@@ -78,3 +78,8 @@ login{
     padding-top:200px;
     z-index: 100;
 }
+
+.Imagen{
+    width: 5%; 
+    height: 5%;
+}
