@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Matricula.aspx.cs" Inherits="Capa_Vista.Matricula" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Matricula.aspx.cs" Inherits="Capa_Vista.Informacion" %>
 
 <!DOCTYPE html>
 
