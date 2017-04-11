@@ -9,7 +9,8 @@ Carnet int identity(1,1) not null primary key,
 Nombre varchar(20),
 Apellido1 varchar(20),
 Apellido2 varchar(20),
-Cedula int
+Cedula int,
+Contraseña varchar(30)
 );
 
 --Tabla TipoTelefono
@@ -115,8 +116,8 @@ Nota int
 --Tabla Requisitos
 Create table Requisitos(
 IdRequisitos Int Identity(1,1) primary key not null,
-Requisitos Varchar(15),
-Codigo_Info int foreign key references InformacionCurso(Codigo_Info)
+Requisitos Varchar(100),
+Codigo_Curso Varchar(15) foreign key references Curso(Codigo_Curso)
 );
 
 --Tabla Horario
@@ -126,14 +127,6 @@ Dia Varchar(10),
 Hora_ini time, --hh,mm,ss
 Hora_fin time,
 Codigo_Curso Varchar(15) foreign key references Curso(Codigo_Curso)
-);
-
---Tabla Grupo
-Create table Grupo(
-Codigo_grupo Int Identity(1,1) primary key not null,
-IdHorario int foreign key references Horario(IdHorario),
-Codigo_Curso Varchar(15) foreign key references Curso(Codigo_Curso),
-CantidadEstudiantes int
 );
 
 --Tabla Expediente
@@ -149,8 +142,3 @@ IdExpediente int foreign key references Expediente(IdExpediente),
 Codigo_Info int foreign key references InformacionCurso(Codigo_Info)
 );
 
---Tabla Usuario
-Create table Usuario(
-Carnet Int Primary Key foreign key references Estudiante(Carnet),
-Contraseña VarChar(20)
-);
