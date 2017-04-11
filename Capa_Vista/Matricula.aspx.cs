@@ -11,7 +11,10 @@ namespace Capa_Vista
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if(!IsPostBack) {
+                GVMatricula.DataSource = new Capa_Negocios.ClsEstudiante().returnSelect();
+                GVMatricula.DataBind();
+            }
         }
     }
 }

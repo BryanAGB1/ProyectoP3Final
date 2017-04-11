@@ -3,15 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SqlClient;
+using System.Data;
 
 namespace Capa_Negocios
 {
     public class ClsEstudiante
     {
-        public bool insertarEstudiante(int Carnet, string Nombre, string Apeliido1, string Apellido2, string Cedula)
-        {
+        public DataTable IniciarSesion(String usuario,String Contraseña) {
+            return new Capa_Conexion.ClsEstudiante().IniciarSesion(usuario, Contraseña);
+        }
 
-            return new Capa_Conexion.ClsEstudiante().InsertarEstudiante(new Capa_Entidad.ClsEstudiante(Carnet, Nombre, Apeliido1, Apellido2, Cedula));
+        public DataTable returnSelect() {
+            return new Capa_Conexion.ClsEstudiante().CursosPendientes();
         }
     }
 }

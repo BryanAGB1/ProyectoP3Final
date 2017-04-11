@@ -1,13 +1,11 @@
-﻿body {
+﻿
+body {
     padding:0%;
     margin:0%;
 }
 
 /*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
-* {
-  padding: 0;
-  margin: 0;
-}
+
  
 Agregamos margenes inferiores a los parrafos
 p {
@@ -20,40 +18,45 @@ header {
   width: 100%;
   z-index: 100;
   overflow: hidden;
+  
 }
 nav {
-  float: left; /* Desplazamos el nav hacia la izquierda */
+  float: left;  /*Desplazamos el nav hacia la izquierda*/ 
 }
  
 nav ul {
   list-style: none;
-  overflow: hidden; /* Limpiamos errores de float */
+  overflow: hidden;  /*Limpiamos errores de float*/ 
+  display: flex;
 }
  
 nav ul li {
   float: left;
   font-family: Arial, sans-serif;
-  font-size: 16px;
+  font-size: 24px;
+
 }
  
+
 nav ul li a {
-  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  display: block;  /*Convertimos los elementos a en elementos bloque para manipular el padding*/ 
   padding: 20px;
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
-  color:aqua;
+  color:black;
+
 }
  
-nav ul li:hover > ul{
+/*nav ul li:hover > ul{
     display:block;
     background: rgb(178, 0, 255);
 }
 
-nav ul li:hover{
-    display:block;
-    background: rgb(255, 106, 0);
-    color:gold;
-}
+    nav ul li:hover {
+        display: block;
+        background: rgb(255, 106, 0);
+        color: gold;
+    }*/
 
 /*.contenido {
   padding-top: 80px;
@@ -79,7 +82,59 @@ login{
     z-index: 100;
 }
 
-.Imagen{
-    width: 5%; 
-    height: 5%;   
+.Imagen {
+    width: 8%;
+    height: 90%;
+}
+
+h1{
+
+  font-family: Arial, 'Segoe Print';
+  font-size: 70px;
+  text-align: center;
+}
+.DVMatricula{
+  margin-top: 10px;
+  text-align: center;
+      width: 81%;
+
+    float: right;
+}
+
+.TITULO{
+      text-align: center;
+      color:rgb(255, 106, 0);
+      font-size: 54px;
+}
+
+/*LbCarnet{
+    font-size: 90px;
+    margin-top:200px;
+}
+
+#LbContraseña{
+    font-size: 90px;
+}
+
+#txtCarnet{
+    margin-top:200px;
+    
+}*/
+
+.Login{
+    margin-left: 10px;
+  margin-top: 50px;
+  text-align: right;
+  width: 65%;
+    float: left;
+    font-family: Arial, 'Segoe Print';
+    font-size: 20px;
+    color: rgb(255, 106, 0);
+    font-size: 30px;
+}
+
+.Boton{
+    margin-top : 150px;
+    margin-left: 650px;
+    margin-bottom: 1px;
 }

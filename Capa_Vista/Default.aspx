@@ -5,26 +5,30 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Inicio - Universidad de las Antillas</title>
-    <link href="/Estilos.css" rel="stylesheet" />
+    <link href="Estilos.css" rel="stylesheet" />
 </head>
-<body>
+<body style="background-image:url(Imagenes/texturafondoazul.jpg) ; background-repeat: no-repeat; background-attachment: fixed;">
     <form id="form1" runat="server">
         <div>
             <header>
                 <nav>
                     <ul>
-                        <li><a href="Default.aspx">
+                        <li>
                             <asp:Image ImageUrl="~/Imagenes/Udelasantillas.png" runat="server" class="Imagen" />
-                        </a></li>
-
+                        </li>
+         
                         <li><a href="Default.aspx">Inicio</a></li>
 
-                        <li><a href="Matricula.aspx">Informacion</a></li>
+                        <li><a href="Matricula.aspx">Matricula</a></li>
 
                         <li><a href="Login.aspx">Login</a></li>    
                     </ul>
                 </nav>
             </header>
+        </div>
+
+        <div>
+            <h1>Bienvenidos a la Universidad de las Antillas</h1>
         </div>
     </form>
 </body>

@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Estilos.css" />
+    <Content Include="Imagenes\texturafondoazul.jpg" />
     <Content Include="Imagenes\Udelasantillas.png" />
     <Content Include="Login.aspx" />
     <Content Include="Matricula.aspx" />
