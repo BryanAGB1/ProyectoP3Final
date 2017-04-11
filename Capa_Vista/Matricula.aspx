@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Matricula.aspx.cs" Inherits="Capa_Vista.Informacion" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Matricula.aspx.cs" Inherits="Capa_Vista.Matricula" %>
 
 <!DOCTYPE html>
 
@@ -8,28 +8,24 @@
     <link href="Estilos.css" rel="stylesheet" />
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div>
-    <div>
-    <header>
-            <nav>
-                <ul>
-
-                    <li><a href="Inicio.aspx">Inicio</a></li>
-
-                     <li> <a href="#">Contactenos</a>
+        <div>
+            <div>
+                <header>
+                    <nav>
                         <ul>
-                            <li><a href="#">Numero1</a></li>
-                            <li><a href="#">info@UA.ac.cr</a></li>
-                            
+                            <li><a href="Default.aspx">
+                                <asp:Image ImageUrl="~/Imagenes/Udelasantillas.png" runat="server" class="Imagen" />
+                            </a></li>
+
+                            <li><a href="Default.aspx">Inicio</a></li>
+
+                            <li><a href="Matricula.aspx">Informacion</a></li>
+
+                            <li><a href="Login.aspx">Login</a></li>
                         </ul>
-                    </li>
-                
-                </ul>
-            </nav>
-    </header>
-    </div>
-    </div>
-    </form>
+                    </nav>
+                </header>
+            </div>
+        </div>
 </body>
 </html>

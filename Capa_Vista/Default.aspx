@@ -5,34 +5,27 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Inicio - Universidad de las Antillas</title>
-    <link href="/Estilos.css" rel="stylesheet" type="text/css"/>
+    <link href="/Estilos.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    <header>
-            <nav>
-                <ul>
-                    <li><a href="Default.aspx"> <asp:Image ImageUrl="~/Imagenes/Udelasantillas.png" runat="server" class="Imagen"/>  </a></li>
-                    
-                    <li><a href="Default.aspx">Inicio</a></li>
-                    
-                    <li><a href="Matricula.aspx">Informacion</a></li>
+        <div>
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="Default.aspx">
+                            <asp:Image ImageUrl="~/Imagenes/Udelasantillas.png" runat="server" class="Imagen" />
+                        </a></li>
 
-                     <li><a href="#">Contactenos</a>
-                        <ul>
-                            <li><a href="#">Numero1</a></li>
-                            <li><a href="#">info@UA.ac.cr</a></li>
-                            
-                        </ul>
-                    </li>
+                        <li><a href="Default.aspx">Inicio</a></li>
 
-                    <%--<li><a href"#"></a></li>--%>
-                
-                </ul>
-            </nav>
-    </header>
-    </div>
+                        <li><a href="Matricula.aspx">Informacion</a></li>
+
+                        <li><a href="Login.aspx">Login</a></li>    
+                    </ul>
+                </nav>
+            </header>
+        </div>
     </form>
 </body>
 </html>
