@@ -30,6 +30,9 @@
         <div>
             <h1>Bienvenidos a la Universidad de las Antillas</h1>
         </div>
+        <div>
+            <img src="Imagenes/Udelasantillas.png" style="position:center;top: 500px; left: 0; width: 100%; height: 100% "/>
+        </div>
     </form>
 </body>
 </html>
